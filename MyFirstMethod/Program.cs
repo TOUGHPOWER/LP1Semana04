@@ -13,6 +13,7 @@ namespace MyFirstMethod
             CountToN(2);
             CountToN(5);
             CountTo10();
+            CountToN(3,5);
         }
 
         /// <summary>
@@ -37,6 +38,19 @@ namespace MyFirstMethod
             }
 
 
+        }
+
+        /// <summary>
+        /// Counts and prints the numbers n1 - n2
+        /// </summary>
+        /// <param name="n1">The Start number it counts from</param>
+        /// <param name="n2">The inclusive Max number it counts to</param>
+        private static void CountToN(int n1, int n2)
+        {
+            for (int i = n1; i < n2 + 1; i++)            
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 
