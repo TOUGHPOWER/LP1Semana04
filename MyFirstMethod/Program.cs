@@ -6,18 +6,30 @@ namespace MyFirstMethod
     {
         static void Main(string[] args)
         {
-            CountTo10();
-            CountTo10();
+            CountToN(2);
+            CountToN(5);
         }
 
         private static void CountTo10()
-    {
-        for (int i = 1; i <= 10; i++)
         {
-            Console.WriteLine(i);
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+
+        }
+
+        private static void CountToN(int n)
+        {
+            for (int i = 1; i <= n; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+
         }
     }
-    }
 
-    
+
 }
