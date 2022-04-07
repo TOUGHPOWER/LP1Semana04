@@ -6,7 +6,13 @@ namespace Fibonacci
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+        }
+
+        private static int Fibonacci(int n)
+        {
+            
+            return n;
         }
     }
 }
